@@ -2,7 +2,7 @@ class Solution(object):
     def pivotIndex(self, nums):
         """
         :type nums: List[int]
-        :rtype: int
+        :rtype: intw
         """
         if len(nums) == 1 :
             return 0
