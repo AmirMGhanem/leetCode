@@ -1,12 +1,9 @@
 
 
-def switch_no_condition(n):
+def switch_no_conditions(n):
     return {5:7,7:5}.get(n,None)
 
-def switch_numbers(n):
-    return (n + 2) % 7
 
-
-print(switch_numbers(5))
-print(switch_numbers(7))
-print(switch_numbers(20))
+print(switch_no_conditions(5))
+print(switch_no_conditions(7))
+print(switch_no_conditions(20))
