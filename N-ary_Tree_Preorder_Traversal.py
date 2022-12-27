@@ -8,7 +8,7 @@ class Node(object):
 
 class Solution(object):
     def preorder(self, root):
-        """
+        """g
         :type root: Node
         :rtype: List[int]
         """
