@@ -7,7 +7,7 @@ class Solution(object):
         """
         nums.sort()
         low = 0
-        high = len(nums)
+        high = len(nums)-1
         mid=0
 
         while low <= high:
@@ -29,7 +29,7 @@ class Solution(object):
 
 
 s = Solution()
-print(s.search([-1,0,3,5,9,12],12))
+print(s.search([-1,0,3,5,9,12],13))
 
 
 
