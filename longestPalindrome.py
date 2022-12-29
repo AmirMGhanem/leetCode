@@ -15,13 +15,5 @@ class Solution(object):
                 _sum+=1
         return _sum
 
-
-
-
-
-
-
-
-
 s= Solution()
 print(s.longestPalindrome("ccc"))
